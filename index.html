@@ -1,11 +1,66 @@
----
-layout: default
-title: myBlog
----
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-{% for post in site.posts %}
-　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+--- layout: default title: myBlog --- Skip to content This repository Search Pull requests Issues Gist @phc1212 Watch 1 Star 0 Fork 0 yanzhenjie/yanzhenjie.github.io Code Issues 0 Pull requests 0 Wiki Pulse Graphs Branch: master Find file Copy pathyanzhenjie.github.io/index.html 3f73494 on 26 Jun @yanzhenjie yanzhenjie Update AndServer. 1 contributor RawBlameHistory 91 lines (89 sloc) 8.92 KB
+<!DOCTYPE html>
+<html class="theme theme-white">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="Keywords" content=",裴含超" />
+    <meta name="Description" content="独立开发者://github.com/yanzhenjie。裴含超的Github：https://github.com/phc1212" />
+    <meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1; user-scalable=no;" />
+    <meta name="baidu-site-verification" content="SCHX6x0bsb" />
+    <title>裴含超</title>
+    <link href="https://www.zybuluo.com/static/assets/template-theme-white.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+    #wmd-preview h1 {
+        color: #0077bb;
+    }
+    </style>
+    <script>
+    function browserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
+            window.location.href = "https://github.com/phc1212";
+        } else {
+            window.location.href = "https://github.com/phc1212";
+        }
+    }
+    </script>
+    <script>
+    (function() {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+</head>
+
+<body class="theme theme-white">
+    <div id="wmd-preview" class="wmd-preview wmd-preview-full-reader">
+        <div class="md-section-divider"></div>
+        <div class="md-section-divider"></div>
+        <h1 data-anchor-id="nssl" id="裴含超">裴含超</h1>
+        <p data-anchor-id="g1zx">　　 独立开发者，小名毛毛。
+            <br> 　　目前就职于北京法米里克信息技术有限公司，目前主要负责
+            <a href="http://bjcie.fami2u.com/" target="_blank">文创大赛</a>的研发工作。</p>
+        <div class="md-section-divider"></div>
+        <h2 data-anchor-id="lgij" id="裴含超的相关连接">裴含超的相关连接</h2>
+        <p data-anchor-id="scz3">裴含超的Github：<a href="https://github.com/phc1212" target="_blank">https://github.com/phc1212</a>
+        
+</body>
+
+</html>
+Contact GitHub API Training Shop Blog About © 2016 GitHub, Inc. Terms Privacy Security Status Help
